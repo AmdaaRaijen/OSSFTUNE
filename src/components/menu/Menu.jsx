@@ -19,10 +19,10 @@ const Menu = () => {
           <p>Rp. xx.xxx/item</p>
           <p>Rp. xx.xxx/3 item</p>
           <div className="menu__now-cta">
-            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary" target={'_blank'}>
+            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary">
               Instagram
             </a>
-            <a href="https://api.whatsapp.com/" className="btn" target={'_blank'}>
+            <a href="https://api.whatsapp.com/" className="btn">
               WhatsApp
             </a>
           </div>
@@ -35,10 +35,10 @@ const Menu = () => {
           <p>Rp. xx.xxx/item</p>
           <p>Rp. xx.xxx/3 item</p>
           <div className="menu__now-cta">
-            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary" target={'_blank'}>
+            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary">
               Instagram
             </a>
-            <a href="https://api.whatsapp.com/" className="btn" target={'_blank'}>
+            <a href="https://api.whatsapp.com/" className="btn">
               WhatsApp
             </a>
           </div>
@@ -51,10 +51,10 @@ const Menu = () => {
           <p>Rp. xx.xxx/item</p>
           <p>Rp. xx.xxx/3 item</p>
           <div className="menu__now-cta">
-            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary" target={'_blank'}>
+            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary">
               Instagram
             </a>
-            <a href="https://api.whatsapp.com/" className="btn" target={'_blank'}>
+            <a href="https://api.whatsapp.com/" className="btn">
               WhatsApp
             </a>
           </div>
