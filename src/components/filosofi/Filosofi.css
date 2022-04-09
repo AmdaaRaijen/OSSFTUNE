@@ -1,0 +1,76 @@
+.filosofi__container {
+  padding: 2rem;
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 50% 35%;
+  gap: 15%;
+}
+
+.filosofi__logo-lingkaran {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  display: grid;
+  place-items: center;
+}
+
+.filosofi__logo-lingkaran img {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+}
+
+.filosofi__logo-lingkaran img:hover {
+  transform: none;
+}
+
+.filosofi__lingkaran-penjelasan article {
+  color: aliceblue;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+
+.filosofi__lingkaran-penjelasan p {
+  color: var(--color-white);
+  margin-top: 2.5rem;
+}
+
+/* ========== MEDIUM DEVICE (TABLET) ========================= */
+@media screen and (max-width: 1024px) {
+  .filosofi__container {
+    grid-template-columns: 2fr;
+    gap: 0;
+  }
+
+  .filosofi__logo-lingkaran {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .filosofi__lingkaran-penjelasan p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* ========== MEDIUM DEVICE (TABLET) ========================= */
+@media screen and (max-width: 600px) {
+  .filosofi__logo-lingkaran {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .filosofi__lingkaran-penjelasan {
+    text-align: center;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0;
+  }
+}

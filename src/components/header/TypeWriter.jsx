@@ -13,10 +13,10 @@ const TypeWriter = () => {
           }}
           onInit={(typewriter) => {
             typewriter
-              .typeString('NEWEST ONLINE SHOP BY AMDA')
+              .typeString('OSIS SMA NEGRI')
               .pauseFor(100)
-              .deleteChars(4)
-              .typeString('OSIS SMANSAGU')
+              .deleteChars(2)
+              .typeString('ERI 1 GUBUG')
               .callFunction(() => {
                 console.log('String typed out!');
               })

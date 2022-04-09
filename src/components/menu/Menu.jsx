@@ -1,66 +1,52 @@
 import React from 'react';
 import './Menu.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
+import KETOS from '../../assets/ketos.jfif';
+import WAKETOS from '../../assets/waketos1.jpg';
+import WAKTETOS2 from '../../assets/waketos2.jpg';
 
 const Menu = () => {
   return (
     <section id="menu">
-      <h5>What Menu We Have</h5>
-      <h2>Our Menu</h2>
+      <h5>Our organizational structure</h5>
+      <h2>Structure</h2>
 
       <div className="container menu__container">
         <article className="menu__now">
           <div className="menu__now-img">
-            <img src={IMG1} alt="This is Menu 1" />
+            <img src={KETOS} alt="This is Menu 1" />
           </div>
-          <h3>This Is Title</h3>
-          <p>Rp. xx.xxx/item</p>
-          <p>Rp. xx.xxx/3 item</p>
+          <h3>Ketua</h3>
+          <h4>Khoiruman Asy'ari</h4>
           <div className="menu__now-cta">
-            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary">
+            <a href="https://www.instagram.com/p/CaKZs-BpblZ/" className="btn btn-primary">
               Instagram
-            </a>
-            <a href="https://api.whatsapp.com/" className="btn">
-              WhatsApp
             </a>
           </div>
         </article>
         <article className="menu__now">
           <div className="menu__now-img">
-            <img src={IMG1} alt="This is Menu 1" />
+            <img src={WAKTETOS2} alt="This is Menu 1" />
           </div>
-          <h3>This Is Title</h3>
-          <p>Rp. xx.xxx/item</p>
-          <p>Rp. xx.xxx/3 item</p>
+          <h3>Wakil Ketua 2</h3>
+          <h4>Qanita Salsabela</h4>
           <div className="menu__now-cta">
-            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary">
+            <a href="https://www.instagram.com/p/CaKZjfipb_H/" className="btn btn-primary">
               Instagram
-            </a>
-            <a href="https://api.whatsapp.com/" className="btn">
-              WhatsApp
             </a>
           </div>
         </article>
         <article className="menu__now">
           <div className="menu__now-img">
-            <img src={IMG1} alt="This is Menu 1" />
+            <img src={WAKETOS} alt="This is Menu 1" />
           </div>
-          <h3>This Is Title</h3>
-          <p>Rp. xx.xxx/item</p>
-          <p>Rp. xx.xxx/3 item</p>
+          <h3>Wakil Ketua 1</h3>
+          <h4>Myke Ardianti</h4>
           <div className="menu__now-cta">
-            <a href="https://www.instagram.com/ossftune.shop/" className="btn btn-primary">
+            <a href="https://www.instagram.com/p/CaKR1hKJlSE/" className="btn btn-primary">
               Instagram
-            </a>
-            <a href="https://api.whatsapp.com/" className="btn">
-              WhatsApp
             </a>
           </div>
         </article>
-
-        <article className="menu_-coming-soon"></article>
       </div>
     </section>
   );

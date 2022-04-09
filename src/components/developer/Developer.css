@@ -1,0 +1,37 @@
+.developer__contaianer {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.developer__avatar {
+  font-size: 1.5rem;
+}
+
+.about__developer {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+  height: 41vh;
+}
+
+.about__developer a {
+  display: grid;
+  gap: 1rem;
+}
+
+/* ========== MEDIUM DEVICE (TABLET) ========================= */
+@media screen and (max-width: 1024px) {
+  .developer__contaianer {
+    width: 60%;
+  }
+}
+
+/* ========== MEDIUM DEVICE (TABLET) ========================= */
+@media screen and (max-width: 600px) {
+  .developer__contaianer {
+    width: var(--container-width-sm);
+  }
+}
